@@ -1,0 +1,68 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body{
+font-family: 'Muli', sans-serif;
+background-color: #e3ebef;
+font-size: 100%;
+width:100vw;
+min-width: 400px;
+max-width: 600px;
+margin: 0 auto;
+text-align: center;
+}
+ /* szélesség pozícionálása*/
+#layout{
+width: 100%;
+background-image: url(assets/back.jpg);
+background-size: cover;
+background-position: center;
+}
+
+header{
+background-color: #c4a693;
+opacity: .8;
+width: 100%;
+font-size: 150%;
+color:#243a44;
+padding: 10px;
+}
+ul{
+	width: 200px;
+	margin: 0 auto;
+	list-style-type: none;
+
+}
+li{
+padding: 10px;
+background-color: grey;
+border-bottom: 1px solid;
+}
+.special{
+	background-color: #8bf6f9;
+	color:yellow;
+}
+
+a{
+color: #f4f6f9;
+text-decoration: none;
+}
+
+@media (min-width: 480px) {
+#menu li {
+width: 24.4%;
+	}
+}
+
+@media (min-width: 530px) {
+#menu li {
+width: 24.5%;
+}
+#menu li ul{
+margin-left: 0;
+}
+}
